@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#cuadroDeCompras {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+    justify-content: space-around;
+    text-shadow: 0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 0.5px black;
+
+}
+
+#botoneraDeFiltros {
+    display: flex;
+    align-items: left;
+}
+
+.boton {
+    border-radius: 100px;
+    border-color: black;
+    background-color: #e4211b;
+}
+
+.boton:hover {
+    background-color: #c00353;
+    border: #3d3d3d 2px solid;
+}
+
+.fondo:hover {
+    background-color: yellowgreen;
+}
+
+.fondo2:hover {
+    background-color: red;
+}
+
+#todo:hover {
+    background-color: #3d3d3d;
+    color: coral
+}
+
+#botonVegano,
+#todo,
+#botonCarne {
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#productoDiv {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 8rem;
+}
+
+.card {
+    background-color: #cdb27b;
+
+}
+
+body {
+    background-image: linear-gradient(70deg, #fffac0 0, #fbe7a8 16.67%, #ebd08c 33.33%, #d8b46c 50%, #c5994d 66.67%, #b68234 83.33%, #ab6f21 100%);
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px
+}
+
+img {
+    height: 12rem;
+}
+
+.fondoCard1 {
+    background-color: #de7c04;
+    border: #3d3d3d 2px solid;
+    box-shadow: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-text {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+h1 {
+    text-shadow: 2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    margin-left: 2.5rem;
+    color: #c00353;
+    font-weight: bold;
+}
+
+nav,
+footer {
+    background-color: #3d3d3d;
+    border: black 2px solid;
+}
+
+
+.fraseahora {
+    font-size: 2.5rem;
+    color: coral;
+    text-shadow: 2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+}
+
+nav div a img {
+    height: 100px;
+    border-radius: 100px;
+    box-shadow: 0.1rem 0.1rem coral
+}
+
+#botonComprar {
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgFooter {
+    border: black 2px solid;
+    box-shadow: 5px 5px;
+    height: 100px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 80px;
+}
+
+footer p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    text-shadow: 2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+}
+
+h2 {
+    margin-left: 1rem;
+    font-size: 5rem;
+    font-family: 'Roboto';
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+    color:#c00353
+
+}
+
+.filtros {
+    width: 20%;
+}
+
+#imagenCarrito{
+    margin-left: 1rem;
+    border: black 2px solid;
+    border-radius: 50px;
+    height: 100px;
+}
+
+/* .acaCarrito {
+    display: none;
+}  */
+
+.display{
+    display: block;
+}
+.hidden {
+	display: none !important;
+}
+    
